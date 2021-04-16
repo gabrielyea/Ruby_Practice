@@ -8,11 +8,6 @@ translate = -> (i) {
 }
 
 
-
-def print_space()
-
-end
-
 def bubble_sort(arr, translate)
     i = 0;
     limit = arr.size - 2
