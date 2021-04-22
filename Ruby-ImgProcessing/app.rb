@@ -22,8 +22,6 @@ images = []
   end
 end
 
-random_order = images.sample(6)
-
 background.combine_options do |c|
   c.resize '1000x1000'
 end
@@ -48,7 +46,6 @@ def create_collection(img_collection, random_images, x_dim, y_dim)
   end
   img_collection
 end
-
 
 print (1..30).to_a.sample(16)
 
